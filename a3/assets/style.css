@@ -1,0 +1,167 @@
+
+body{
+
+background-color: #B32A20;
+}
+
+a {
+  color: red;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+a:hover {
+  background-color: yellow;
+
+}
+
+
+
+#Resume{
+
+	position: absolute;
+	top: 1vw;
+	background-color: white;
+	color: black;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 2vw;
+	color: black; 
+	font-family: 'Neucha', cursive;
+	font-size: 2em;
+	border-radius: 30px;
+	width: 700px;
+	height:60px;
+	text-align: center;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+#ContactInfo{
+	width: 30vw;
+	height:10vw;
+	position: absolute;
+	top: 40vw;
+	background-color: white;
+	color: black;
+	padding-left: 1vw;
+	font-size: 1.25em;
+	padding-top: 2vw;
+	font-family: 'Comic Sans', sans-serif;
+
+}
+
+.AboutThor{
+	width: 49vw;
+	height:15vw;
+	position: absolute;
+	top: 55vw;
+	background-color: white;
+	color: black;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 2vw;
+	font-size: 1.25em;
+	font-family: 'Comic Sans', sans-serif;
+
+}
+
+
+.WorkExperience{
+	
+	width: 30vw;
+	height: 8vw;
+	position: absolute;
+	top: 77vw;
+	background-color: white;
+	color: black;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 2vw;
+	font-size: 1.25em;
+	font-family: 'Comic Sans', sans-serif;
+}
+
+ul{
+		list-style-type:disc;
+		list-style-position:inside;
+	}
+
+
+p{
+	font-family: 'Lato', sans-serif;
+}
+
+.HobbiesAndInterests{
+
+	width: 30vw;
+	height: 8vw;
+	position: absolute;
+	top: 89vw;
+	background-color: white;
+	color: black;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 2vw;
+	font-size: 1.25em;
+	font-family: 'Comic Sans', sans-serif;
+}
+
+ol{
+		list-style-type:upper-roman;
+		list-style-position:inside;
+	}
+
+.Table{
+	width: 50vw;
+	height:14vw;
+	position: absolute;
+	top: 100vw;
+	background-color: white;
+	color: black;
+	font-size: 5em;
+	font-family: 'Comic Sans', sans-serif;
+
+	}
+table{
+   border: 1px solid black;
+   		text-align: center;
+   		
+}
+
+
+	table {
+		width:40%;
+	}
+	th{
+		height: 5pc;
+		font-size: 20px;
+		   border: 1px solid black;
+		      		
+
+
+	}
+	td{
+		height: 5pc;
+		font-size: 20px;
+		   border: 1px solid black;	
+
+
+	}
+
+
