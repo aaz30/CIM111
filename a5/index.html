@@ -1,8 +1,116 @@
 <!DOCTYPE html>
-   <html>
-     <head>
-          <title>Assignment 5</title>  
-     </head>
-     <body>
-     </body>
-  </html>
+<html>
+	<head>
+
+    	<title>How To Make Yummy Waffles!</title>
+
+	<style>
+		ul{
+		list-style-type: none;
+		text-align:center;
+		font-family: 'Comic Sans', sans-serif;
+		}
+
+	</style>
+
+	</head>
+	<main>
+<body>
+
+	<script type="text/javascript">
+
+
+     /* If they respond with "Yes", write the following to the page: "Here’s how to make them!"
+
+ 
+    * If they respond with "No", write the following to the page: "Maybe you should try to make your own!"
+
+
+    * **BONUS:** Ask what the user’s birth year is. If they are under 14, alert the following: "Get parent supervision!"
+      */
+
+ 
+
+      var likeswaffles = prompt("Do you like waffles? Yes or No");
+
+ 
+
+      if(likeswaffles === "Yes"){
+        document.write("Here is how to make them!");
+      }
+
+ 
+
+      if(likeswaffles === "No"){
+        document.write("Maybe you should try to make your own!");
+      }
+
+
+      var age = prompt("What is your birth year?");
+       var narcs = 2019 - age;
+
+ 
+       if(narcs<14){
+        alert("Get parent supervision");
+       }
+
+
+    </script>
+
+	 <h1 id="textChange" text align=center>How To Make Yummy Waffles!</h1>
+	<ul>
+  		 <h2 id="info"><em>Step By Step Instructions</em></h2>
+  		 <div id="recepticle"></div>
+
+      <li>
+         <div id="step1"><strong>Step One</strong></div>
+         <img id="imageone" class="hideImages" src="images/step1.jpg"width="350">
+         <div id="steponeinfo" class="hideInfoone" ></div>
+        	<br><br>
+      </li>
+
+      <li>
+        <div id="step2"><strong>Step Two</strong></div>
+        <img id="imagetwo" class="hideImages" src="images/step2.jpg"width="350">
+        <div id="steptwoinfo" class="hideInfotwo" ></div>
+        	<br><br>
+      </li>
+
+      <li>
+        <div id="step3"><strong>Step Three</strong></div>
+        <img id="imagethree" class="hideImages" src="images/step3.jpg"width="350">
+        <div id="stepthreeinfo" class="hideInfothree" ></div>
+        	<br><br>
+      </li>
+
+      <li>
+        <div id="step4"><strong>Step Four<strong></div>
+        <img id="imagefour" class="hideImages" src="images/step4.jpg"width="350">
+        <div id="stepfourinfo" class="hideInfofour" ></div>
+        	<br><br>
+      </li>
+      <li>
+        <div id="step5"></strong>Step Five</strong></div>
+        <img id="imagefive" class="hideImages" src="Images/step5.jpg"width="350">
+        <div id="stepfiveinfo" class="hideInfofive" ></div>
+        	<br><br>
+      </li>
+     
+    </ul>
+
+
+  <!-- jquery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
+ 
+
+<script type="text/javascript" src="js/jtest.js"></script>
+
+
+</main>
+<br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+	<h4 id="footer" text align=center> Recipe from www.instructables.com </h5>
+</footer>
+</body>
+</html>
