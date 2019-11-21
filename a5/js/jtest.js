@@ -17,6 +17,7 @@
       	$("#textChange").html("How to Make Yummy Waffles!");
       	$("#textChange").click(function(){
       	$("body").css("background-color","#FAFAAC");
+
  	});
  
  	$("#info").mouseover(function(){
@@ -29,6 +30,10 @@
         $("#info").css("background-color", "transparent");
    	 });
 
+        $("#yum").click(function(){
+          $("p").prepend("YUM <br><br> YUM");
+
+       });
 
   	$(".hideImages").hide();
  
